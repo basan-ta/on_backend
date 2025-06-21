@@ -7,7 +7,7 @@ import { UsersController } from './users/users.controller';
 
 @Module({
   imports: [UsersModule, TweetModule], // Add both UsersModule and TweetModule
-  controllers: [AppController,UsersController],
+  controllers: [AppController, UsersController],
   providers: [AppService],
 })
 export class AppModule {}
