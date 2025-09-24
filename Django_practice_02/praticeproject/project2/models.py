@@ -9,3 +9,6 @@ class Tour(models.Model):
     duration = models.IntegerField()
     date = models.DateField()
 
+    # this is a string represtation of the model
+    def __str__(self):
+        return f" {self.origin_country} to {self.destination_country} on {self.date}"
