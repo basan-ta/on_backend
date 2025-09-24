@@ -4,6 +4,10 @@
 /node_modules
 /build
 
+#pychahce 
+__pycache__/
+db.sqlite3
+
 # Logs
 logs
 *.log
